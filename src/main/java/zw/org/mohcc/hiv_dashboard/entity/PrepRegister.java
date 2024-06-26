@@ -43,9 +43,6 @@ public class PrepRegister {
     @Column(name = "patient_id")
     private String patientId;
 
-    @Column(name = "person_id", nullable = false)
-    private String personId;
-
     @Column(name = "prep_number")
     private String prepNumber;
 

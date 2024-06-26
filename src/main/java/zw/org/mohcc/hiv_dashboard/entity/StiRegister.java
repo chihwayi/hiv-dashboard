@@ -37,9 +37,6 @@ public class StiRegister {
     @Column(name = "month")
     private Integer month;
 
-    @Column(name = "patient_id", nullable = false)
-    private String patientId;
-
     @Column(name = "person_id")
     private String personId;
 
